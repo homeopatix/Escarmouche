@@ -11,22 +11,22 @@ function CreateLocalizationInfo()
 	if Turbine.Engine.GetLanguage() == Turbine.Language.German then
 		Strings.PluginName = "Helper";
 		Strings.PluginText = "Escarmouche";
-		Strings.PluginText_1 = "Ruf den Soldaten an";
-		Strings.PluginText_2 = "F\195\188hre den Soldaten";
-		Strings.PluginEscEnable = "Escarmouche - Escape-Taste aktiviert";
-		Strings.PluginEscDesable = "Escarmouche - Escape-Taste deaktiviert";
+		Strings.PluginText_1 = "Soldat rufen";
+		Strings.PluginText_2 = "Soldat f\195\188hren";
+		Strings.PluginEscEnable = "Escape-Taste aktiviert";
+		Strings.PluginEscDesable = "Escape-Taste deaktiviert";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
-		Strings.PluginBorderDesable = "Border deaktiviert";
-		Strings.PluginBorderEnable = "Border aktiviert";
-		Strings.PluginHelp = " *** Escarmouche Aide ***\n\n" ..
-		"/show zeige das Fenster\n" ..
-		"/hide verstecke das Fenster\n" ..
-		"/alt - Aktivieren oder deaktivieren Sie die alt-Taste um das Symbol zu verschieben.\n" ..
-		"/toggle - Fenster ein-oder ausblenden\n\n" ..
-		"/esc aktiviert oder deaktiviert das Fenster, das mit der Escape-Taste geschlossen wird";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
+		Strings.PluginBorderDesable = "Fensterrahmen deaktiviert";
+		Strings.PluginBorderEnable = "Fensterrahmen aktiviert";
+		Strings.PluginHelp = " *** Escarmouche Hilfe ***\n\n" ..
+		"/es show - Zeigt das Fenster an.\n" ..
+		"/es hide - Blendet das Fenster aus.\n" ..
+		"/es alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/es toggle - Fenster anzeigen/ausblenden.\n\n" ..
+		"/es esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.";
 
 	elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Helper";
@@ -42,11 +42,11 @@ function CreateLocalizationInfo()
 		Strings.PluginBorderDesable = "Border desactiv\195\169";
 		Strings.PluginBorderEnable = "Border activ\195\169";
 		Strings.PluginHelp = " *** Escarmouche Aide ***\n\n" ..
-		"/show affiche la fenetre\n" ..
-		"/hide cache la fenetre\n" ..
-		"/alt - Active ou d\195\169sactive la touche alt pour le d\195\169placement de l'icon.\n" ..
-		"/toggle - affiche ou cache la fenetre.\n\n" ..
-		"/esc active ou d\195\169sactive la fermeture de fenetre avec la touche escape";
+		"/es show affiche la fenetre\n" ..
+		"/es hide cache la fenetre\n" ..
+		"/es alt - Active ou d\195\169sactive la touche alt pour le d\195\169placement de l'icon.\n" ..
+		"/es toggle - affiche ou cache la fenetre.\n\n" ..
+		"/es esc active ou d\195\169sactive la fermeture de fenetre avec la touche escape";
 
 	elseif Turbine.Engine.GetLanguage() == Turbine.Language.English then
 		Strings.PluginName = "Helper";
@@ -62,10 +62,10 @@ function CreateLocalizationInfo()
 		Strings.PluginBorderDesable = "Border Desactivated";
 		Strings.PluginBorderEnable = "Border Activated";
 		Strings.PluginHelp = " *** Escarmouche Aide ***\n\n" ..
-		"/show show the window\n" ..
-		"/hide hide the window\n" ..
-		"/alt - Activate or deactivate the alt key to move the icon.\n" ..
-		"/toggle - display or hide the window.\n\n" ..
-		"/esc activates or deactivates window closing with the escape key";	
+		"/es show show the window\n" ..
+		"/es hide hide the window\n" ..
+		"/es alt - Activate or deactivate the alt key to move the icon.\n" ..
+		"/es toggle - display or hide the window.\n\n" ..
+		"/es esc activates or deactivates window closing with the escape key";	
 	end
 end
