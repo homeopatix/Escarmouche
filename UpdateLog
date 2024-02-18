@@ -1,3 +1,19 @@
+UPDATE V1.12
+(French)
+Rajout d'une option pour activer ou desactiver le bord de la fenetre
+(English)
+Adding an option to turn the edge of the window on or off
+(Deutsche)
+Hinzufügen einer Option zum Ein- oder Ausschalten des Fensterrandes
+
+UPDATE V1.11
+(French)
+Rajout d'une commande toggle
+(English)
+Addition of a toggle command
+(Deutsche)
+Hinzufügen eines Umschaltbefehls
+
 UPDATE V1.10
 (French)
 Rajout d'une ligne de commande pour activer la touche alt pour le deplacement de l'icone
