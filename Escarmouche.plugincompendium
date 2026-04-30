@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1120</Id>
+  <Name>Escarmouche</Name>
+  <Version>1.13</Version>
+  <Author>Homeopatix</Author>
+ <Description>
+    DESCRIPTION (Francais)
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Escarmouche est un petit plugin pour avoir un acces rapide a votre soldat
+
+    Vous pouvez cliquez sur le bouton ESCARMOUCHE pour afficher la fenetre ou cliquez sur le bouton pour la cacher
+
+    Vous pouvez ferme la fenetre en cliquant sur la croix
+    et vous pouvez la reouvrir en cliquant sur l'icon ESCARMOUCHE
+
+    DESCRIPTION (English)
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Escarmouche is a small plugin to have quick access to your soldier
+
+    You can click the ESCARMOUCHE button to display the window or click the button to hide it
+
+    You can close the window by clicking on the cross
+    and you can reopen it by clicking on the icon ESCARMOUCHE
+
+    DESCRIPTION (Deutsche)  
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Escarmouche ist ein kleines Plugin, mit dem Sie schnell auf Ihre soldat
+
+    Sie konnen auf die Schaltflache ESCARMOUCHE klicken, um das Fenster anzuzeigen, oder auf die Schaltflache klicken, um es auszublenden
+
+    Sie konnen das Fenster schliessen, indem Sie auf das Kreuz klicken
+    und Sie konnen es erneut offnen, indem Sie auf das Symbol ESCARMOUCHE klicken
+
+    LIST OF ALL COMMANDS
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+    (French)
+    Raccourci disponible
+    /Es show -- montre la fenetre
+    /Es hide -- cache la fenetre
+    /Es esc -- desactive ou active la fermeture de la fenetre avec la touche escape
+    /Es toggle - affiche ou cache la fenetre
+    /Es border - active ou desactive le bord de la fenetre
+
+    (English)
+    Shortcut available
+    /Es show - show the window
+    /Es hide - hide the window
+    /Es esc -- deactivate or activate the closing of the window with the escape key
+    /Es toggle - display or hide the window
+    /Es border - activates or deactivates the edge of the window
+
+    (Deutsche)
+    Verknupfung verfugbar
+    /Es show - zeige das Fenster
+    /Es Hide - Verstecke das Fenster
+    /Es esc -- Deaktivieren oder aktivieren Sie das Schliessen des Fensters mit der Escape-Taste
+    /Es toggle - Fenster ein-oder ausblenden
+    /Es border - Aktiviert oder deaktiviert den Rand des Fensters
+</Description>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info1120</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download1120</DownloadUrl>
+  <Descriptors>
+    <descriptor>Homeopatix\Escarmouche.plugin</descriptor>
+  </Descriptors>
+</PluginConfig>
